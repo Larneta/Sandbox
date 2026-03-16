@@ -1,0 +1,10 @@
+h1 {
+    font-family: 'Bungee Spice', cursive;
+}
+
+.frameworks-logos img{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+

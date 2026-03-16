@@ -1,0 +1,34 @@
+/*
+Emmet shortcut ml:a       margin-left: auto
+Emmet shortcut td:n       text-decoration: none;
+Emmet shortcut d:f        display flex
+Emmet shortcut list:n     list-style-type: none
+Emmet shortcut p          padding
+Emmet shortcut m          margin
+Emmet shortcut bgc        background-color
+Emmet shortcut bd         border shorthand:
+Emmet shortcut c          color;
+
+Child combinator          nav > ul
+Class selector            .login-icon
+Descendant combinator     li a
+*/
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 14px 0 14px 8px;
+    margin: -8px -8px -8px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+li a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+.login-icon{
+    margin-left: auto;
+}
+

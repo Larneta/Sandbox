@@ -1,0 +1,227 @@
+table {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid green;
+    table-layout: fixed;
+}
+
+.header {
+    display: flex;
+
+
+}
+
+th, td {
+    border: 1px solid red;
+}
+
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.align-r{text-align: end}
+body {
+    background: #1e1e1e;
+    font-family: Arial, sans-serif;
+    color: #ddd;
+}
+
+.resume {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #2a2a2a;
+    padding: 30px;
+}
+
+/* HEADER */
+.header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    gap: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    border-radius: 4px;
+}
+
+.header-info h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.header-info h2 {
+    color: #4fc3f7;
+    margin: 5px 0;
+}
+
+.contact p {
+    margin: 3px 0;
+    font-size: 14px;
+}
+
+/* CONTENT */
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    background: #333;
+    padding: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.item {
+    margin: 15px 0;
+}
+
+.item h4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    color: #fff;
+}
+
+/* SKILLS */
+.skill {
+    margin: 15px 0;
+}
+
+.bar {
+    background: #444;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bar div {
+    height: 100%;
+    background: #4fc3f7;
+}
+.summary{display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.graphic-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.graphic-skills li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.color {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+/* Colors from image */
+.ps { background: #4fc3f7; }   /* Blue */
+.ai { background: #26c6da; }   /* Cyan */
+.id { background: #9ccc65; }   /* Green */
+.cd { background: #ffca28; }   /* Yellow */
+.dm { background: #ef5350; }   /* Red */
+🎯 Result
+✔ Matches the colored square legend
+✔ Clean and simple
+✔ Easy to reorder or recolor
+
+2️⃣ LANGUAGE SKILLS (Circular Rating Dots)
+🔍 What this is
+Each language has 5 circles
+
+                    Filled = proficiency
+
+                             Empty = remaining level
+
+                                     ✅ HTML
+                                     html
+                                     Copy code
+<div class="language-skills">
+<h3>LANGUAGE SKILLS</h3>
+
+<div class="language">
+<span>English</span>
+<div class="dots">
+<span class="dot filled blue"></span>
+<span class="dot filled blue"></span>
+<span class="dot filled blue"></span>
+<span class="dot filled blue"></span>
+<span class="dot"></span>
+</div>
+</div>
+
+<div class="language">
+<span>French</span>
+<div class="dots">
+<span class="dot filled green"></span>
+<span class="dot filled green"></span>
+<span class="dot filled green"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+</div>
+
+<div class="language">
+<span>Spain</span>
+<div class="dots">
+<span class="dot filled yellow"></span>
+<span class="dot filled yellow"></span>
+<span class="dot filled yellow"></span>
+<span class="dot filled yellow"></span>
+<span class="dot"></span>
+</div>
+</div>
+</div>
+  ✅ CSS
+  css
+  Copy code
+  .language {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #ccc;
+  }
+
+.dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #333;
+    border: 1px solid #555;
+}
+
+/* Filled colors */
+.blue   { background: #4fc3f7; border: none; }
+.green  { background: #9ccc65; border: none; }
+.yellow { background: #ffca28; border: none; }
+
+
+
+
+
+
+
